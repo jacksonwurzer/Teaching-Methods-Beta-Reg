@@ -1,3 +1,12 @@
+/************************************************************************
+ Project: Effect of Different Teaching Methods on Test Scores
+ Purpose: Determine number of blocks needed to reach 80% power
+ Author: Jackson Wurzer
+ Date:   May 8th, 2024
+************************************************************************/
+
+
+/* Input Data */
 data beta_power;
 	input method $ type $ score;
 	do block=1 to 6;
